@@ -1,0 +1,10 @@
+dependencies {
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-firestore:24.0.0'
+    implementation 'androidx.room:room-runtime:2.4.1'
+    kapt 'androidx.room:room-compiler:2.4.1'
+    // مكتبة تحميل الصور
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    kapt 'com.github.bumptech.glide:compiler:4.12.0'
+}
